@@ -37,19 +37,19 @@ void loop()
   } else {    
     if(val1 > val2)
     {
-      if(pos < positionMax)
+      //if(pos < positionMax)
         avancerParPas(10);
-      else{
-        Serial.print("valeur maximale avancee atteinte");
-      }
+//      else{
+//        Serial.print("valeur maximale avancee atteinte");
+//      }
     }
     if(val1 < val2) 
     {
-      if(posRetour > positionMax)
+      //if(posRetour > positionMax)
         reculerParPas(10);
-       else{
-        Serial.print("valeur maximale reculee atteinte");
-      }
+//       else{
+//        Serial.print("valeur maximale reculee atteinte");
+//      }
      // pos = ++pos;
     }
   }
